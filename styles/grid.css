@@ -15,3 +15,27 @@
     margin-bottom: 7px;
     text-align: center;
 }
+.secao_banner{
+    display:none;
+}
+@media screen and (min-width:1024){
+    .gridimg{
+        backgraund-color: rgb(137, 137, 255);
+    }
+    .imagem{
+        border-top: 10px groove rgb (92, 33, 133);
+        border-left: 10px dotted rgb (231, 217, 12);
+        border-right:10px solid rgb (223, 5, 5);
+        border-bottom:10px dashed rgb (9, 9, 177);
+        width: 180px! important;
+        height: 160px! important;
+    }
+    .titulo{
+        font-size: 30px;
+        color: rgb(2, 46, 46);
+    }
+    .secao_banner{
+        width: 100%;
+        display: block;
+    }
+}
