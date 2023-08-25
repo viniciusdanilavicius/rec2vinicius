@@ -1,4 +1,4 @@
-.cabecalho__menu-hamburguer{
+.cabecalho__menu-hamburguer container__imagem{
     width: 24px;
     height: 24px;
     background-image: url("../img/Menu.svg");
